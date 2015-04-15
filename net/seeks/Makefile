@@ -17,6 +17,7 @@ PKG_SOURCE_URL:=git://seeks.git.sourceforge.net/gitroot/seeks/seeks
 PKG_SOURCE_PROTO:=git
 PKG_REV:=e8565b98cfe40fba644f587536f15f1a8665d230
 PKG_SOURCE_VERSION:=$(PKG_REV)
+PKG_USE_MIPS16:=0
 
 include $(INCLUDE_DIR)/package.mk
 include $(INCLUDE_DIR)/nls.mk
